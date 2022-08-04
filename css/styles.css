@@ -1,0 +1,201 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;;
+	background-color: #FDEC01;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+footer {
+	display: flex;
+	background-color: black;
+	color: white;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+.seccion1{
+	background-size: 100%;
+	background-image: url("../imagenes/home_banner_1.jpg");
+	background-repeat: no-repeat;
+}
+.header{
+	display: flex;
+	width: 100%;
+}
+
+.header_ul{
+	justify-content: flex-start;
+}
+.header_ul1{
+	justify-content: flex-end;
+	padding-right: 5%;
+}
+
+.header ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	column-gap: 15px
+}
+
+.menu_ul{
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+.seccion1_box{
+	background-color: black;
+	opacity: 50%;
+}
+
+.menu {
+	display: flex;
+	margin-bottom: .02%;
+}
+
+.menu_ul{
+	color: white;
+	justify-content: center;
+	column-gap: 15%;
+	padding-right: 2%;
+	padding-left: 2%;
+	list-style: none;
+	font-weight: bold;
+}
+
+.bienvenido{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: grid;
+	color: #FDEC01;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.bienvenido p{
+	display: grid;
+	color: white;
+	justify-content: center;
+	font-weight: bold;
+	font-size: auto;
+	width: 100%;
+}
+
+
+.descuento{
+	width: 100%;
+	height: 20px;
+	background-color: blueviolet;
+	color: black;
+	text-align: center;
+	font-size: auto;
+}
+------------------------------------------------------
+.seccion4{
+	display: flex;
+	width: 100%;
+}
+.seccion4 {
+	width: 100%;
+	background-color: white;
+}
+.footer_ul{
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 50px;
+}
+----------------------------------------------------
+
+----------------------------------------------------
+
+
+.seccionfooter h3{
+	margin-left: 5%;
+}
+
+.seccionfooter1{
+	margin-left: 5%;
+	justify-content: flex-start;
+	flex: 1;
+}
+.footer2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer3{
+	margin-left: 10%;
+}
+.footer3 h3{ 
+	display: flex;
+	flex: 1;
+}
+.logosredes li{
+	display: flex;
+}
+--------------------------
+
+@media (max-width: 746px){
+	
+	.menu{
+		flex-wrap: wrap;
+	}
+	
+	.menu_ul{
+		margin: 10px 0;
+		justify-content: center;
+	}
+
+	.menu
+	.menu_ul{
+		display: flex;
+		justify-content: center;
+	}
+
+--------------------------
+
+.likes {
+	width: auto;
+}
+.bolsa {
+	width: auto;
+}
+.logo {
+	width: 30%;
+	margin-left: 5%;
+}
+.seccion2 {
+	width: 100%;
+}
+.seccion4 img{
+	width: 100%;
+}
+
+/*--------------------TRANSICIONES--------------------------------*/
+
+
+.menu a:hover {
+	border-color: black;
+	color: white;
+}
+
+.menu a{
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 1s;
+}
+
