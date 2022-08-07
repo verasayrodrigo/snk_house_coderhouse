@@ -7,7 +7,7 @@ body{
 }
 
 *{
-	box-sizing: border-box;
+	box-sizing: border-box;s
 }
 
 footer {
@@ -149,7 +149,7 @@ ul{
 }
 --------------------------
 
-@media (max-width: 480px) and (orientation: portrait){
+@media (max-width: 480px)
 	
 	.menu{
 		flex-wrap: wrap;
