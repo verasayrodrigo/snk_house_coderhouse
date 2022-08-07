@@ -149,14 +149,14 @@ ul{
 }
 --------------------------
 
-@media (max-width: 746px){
+@media (max-width: 480px) and (orientation: portrait){
 	
 	.menu{
 		flex-wrap: wrap;
 	}
 	
 	.menu_ul{
-		margin: 10px 0;
+		margin: 0 0;
 		justify-content: center;
 	}
 
@@ -165,7 +165,7 @@ ul{
 		display: flex;
 		justify-content: center;
 	}
-
+}
 --------------------------
 
 .likes {
