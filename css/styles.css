@@ -3,7 +3,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;;
-	background-color: #FDEC01;
+	background-color: black;
 }
 
 *{
@@ -97,8 +97,8 @@ ul{
 .descuento{
 	width: 100%;
 	height: 20px;
-	background-color: black;
-	color: white;
+	background-color: yellow;
+	color: black;
 	text-align: center;
 	font-size: auto;
 }
@@ -189,8 +189,7 @@ ul{
 
 
 .menu a:hover {
-	border-color: black;
-	color: white;
+	color: yellow;
 }
 
 .menu a{
