@@ -97,8 +97,8 @@ ul{
 .descuento{
 	width: 100%;
 	height: 20px;
-	background-color: blueviolet;
-	color: black;
+	background-color: black;
+	color: white;
 	text-align: center;
 	font-size: auto;
 }
