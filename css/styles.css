@@ -23,6 +23,7 @@ ul{
 
 .seccion1{
 	background-size: 100%;
+	background-position: center;
 	background-image: url("../imagenes/home_banner_1.jpg");
 	background-repeat: no-repeat;
 }
