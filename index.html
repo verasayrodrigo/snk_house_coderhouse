@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width" initial-scale="1.0">
 	<title>SNK | Sneakers House</title>
 	<link rel="shortcut icon" href="favicomsnk.png">
+	<!-- Boostrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<!-- Link de CSS -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<!-- GOOGLES FONTS -->
@@ -43,6 +45,7 @@
 			</div>
 
 	</section>
+<!--
 	<section class="seccion_carrusel">
 		<div class="carrusel">
 			<img src="imagenes/balenciaga_36/balenciaga_36_1.jpg" alt="ESTAS VIENDO LO MAS NUEVO!!" class="imagen-hot-trend">
@@ -52,7 +55,42 @@
 			<img src="imagenes/yeezy_boos_700/yeezy_boos_700_1.jpg" alt="ESTAS VIENDO LO MAS NUEVO!!" class="imagen-hot-trend">
 		</div>	
 	</section>		
+-->
 
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/balenciaga_36/balenciaga_36_1.jpg" class="d-block w-100" alt="ESTAS VIENDO LO MAS NUEVO!!">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/jordan_offwithe/jordan_offwithe_1.jpg" class="d-block w-100" alt="ESTAS VIENDO LO MAS NUEVO!!">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/nike_dunk/nike_dunk_1.jpg" class="d-block w-100" alt="ESTAS VIENDO LO MAS NUEVO!!">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/nike_travis_scott/nike_travis_scott_1.jpg" class="d-block w-100" alt="ESTAS VIENDO LO MAS NUEVO!!">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/yeezy_boos_700/yeezy_boos_700_1.jpg" class="d-block w-100" alt="ESTAS VIENDO LO MAS NUEVO!!">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>s
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- ------------------- -->
 	<section class="seccion3">
 		<h2>STREETWEAR</h2>
 			<a href="pages/streetwear.html"/a><img class="streetwear" src="imagenes/home_streetwear_1.jpg" alt="S N K | Sneakers House"/></a>
@@ -92,6 +130,9 @@
 				</ul>
 		</section>
 
-	</footer>	
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
