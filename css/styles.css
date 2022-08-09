@@ -2,12 +2,15 @@ html,
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;;
+	font-family: 'Open Sans', sans-serif;;s
 	background-color: black;
+}
+img{
+	width: 100%;
 }
 
 *{
-	box-sizing: border-box;s
+	box-sizing: border-box;
 }
 
 footer {
@@ -119,9 +122,64 @@ ul{
 	justify-content: center;
 	column-gap: 50px;
 }
-----------------------------------------------------
+/*----------------------------------------------------*/
 
-----------------------------------------------------
+.bienvenido h1{
+	float: center;
+	color: yellow;
+	position: relative;
+}
+
+.bienvenido h1 span{
+	position: absolute;
+	right: 0;
+	width: 0;
+	background: black;
+	border-left: 2px solid #fff;
+
+	animation: maquina 4s infinite alternate steps(45);
+}
+
+@keyframes maquina {
+	from {
+		width: 100%;
+	}
+	to{
+		width: 0;
+	}
+}
+
+/*----------------------------------------------------*/
+
+.carrusel {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.carrusel {
+	position: relative;
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0,.50);
+	cursor: pointer;
+}
+
+.carrusel img{
+	transform: perspective(600px) rotateY(180degh);
+	width: 100%;
+	height: 100%;
+	padding: 4px;
+}
+.carrusel:hover {
+	transform: rotate(360deg);
+	transition-duration: 2s;
+
+
+
+/*----------------------------------------------------*/
 
 
 .seccionfooter h3{
@@ -199,3 +257,4 @@ ul{
 	transition-duration: 1s;
 }
 
+/*------------------------------------------------------------------*/
