@@ -150,21 +150,30 @@ a {
 	}
 }
 /*------------------------------------------------------*/
-.seccion4{
+.tarjetas{
 	display: flex;
-	width: 100%;
-}
-.seccion4 {
-	width: 100%;
+	flex-direction: column;
+	text-align: center;
 	background-color: white;
 }
-.footer_ul{
-	display: flex;
-	flex: 1;
-	flex-wrap: wrap;
-	justify-content: center;
-	column-gap: 50px;
+
+.tarjetas_marcas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
+.tarjetas_marcas img{
+	width: 100px;
+	height: 100px;
+	
+}
+
+/*----------------------------------------------------*/
+
+
+
 /*----------------------------------------------------*/
 
 
@@ -198,8 +207,37 @@ a {
 
 
 /*----------------------------------------------------*/
+.footer {
+	display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: black;
+    margin: auto;
+    padding: 0.3rem 0;
+}
+.ayuda_footer .logo_footer .redes_footer{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ayuda_footer h3{
+	padding-left: 1rem;
+	margin-top: 1rem;
+}
+.ayuda_footer a{
+	text-decoration: none;
+	padding-left: 2rem;
+}
+.logo_footer img{
+	width: 80%;
+	margin-top: 2rem;
+}
+.redes_footer{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
 
-
+/*
 .seccionfooter h3{{
 	margin-left: 5%;
 {}}
@@ -226,7 +264,7 @@ a {
 	display: flex;
 	flex: 1;
 }
-
+*/
 /*--------------------------*/
 
 @media (max-width: 480px)
