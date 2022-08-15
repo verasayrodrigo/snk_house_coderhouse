@@ -150,21 +150,21 @@ a {
 	}
 }
 /*------------------------------------------------------*/
-.tarjetas{
+.marcas{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	background-color: white;
 }
 
-.tarjetas_marcas{
+.imagenes_marcas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.tarjetas_marcas img{
+.imagenes_marcas img{
 	width: 100px;
 	height: 100px;
 	
