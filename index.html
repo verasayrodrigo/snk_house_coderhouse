@@ -14,42 +14,52 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	<div class="descuento">
-		<p><strong>AHORA 6 SIN INTERÉS - 20% OFF PAGANDO CON TRANSFERENCIA</strong></p>
-	</div>
-	<section class="seccion1">
-		<nav class="seccion1_box">
-			<div class="header">
-				<ul class="header_ul">
-					<li><a href="index.html"/a><img class="logo" src="imagenes/logo_blanco.png" alt="S N K | Sneakers House"/></a></li>
-				</ul>
-				<ul class="header_ul1">	
-					<li><input type="search" placeholder="Estoy buscando..." id="inputBusqueda"/></li>
-					<li><img class="likes" src="imagenes/likes.png" alt="Likes"></li>
-					<button type="button" class="btn btn-primary position-relative">
-					  <img class="bolsa" src="imagenes/carrito.png" alt="Bolsa De Compras">
-					  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-					    <span class="visually-hidden">New alerts</span>
-					  </span>
-					</button>
-				</ul>	
-			</div>
-			<div class="menu">
-				<ul class="menu_ul">
-					<li><a href="pages/adidas.html">ADIDAS</a></li>
-					<li><a href="pages/nike.html">NIKE</a> </a></li>
-					<li><a href="pages/luxury.html">LUXURY</a></li>
-					<li><a href="pages/streetwear.html">STREET-WEAR</a></li>
-					<li><a href="pages/about_us.html" target="_blank">ABOUT US</a></li>
-				</ul>
-			</div>
-		</nav>
+	<header class="descuento_header">
+		<div class="descuento">
+			<p><strong>AHORA 6 CUOTAS SIN INTERÉS // 40% OFF PAGANDO EN EFECTIVO</strong></p>
+		</div>
+	</header>	
+	<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"/a><img class="logo" src="imagenes/logo_blanco.png" alt="S N K | Sneakers House"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="pages/about_us.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/streetwear.html">STREET-WEAR</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BRANDS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pages/adidas.html">ADIDAS</a></li>
+            <li><a class="dropdown-item" href="pages/nike.html">NIKE</a></li>
+           	<li><a class="dropdown-item" href="pages/luxury.html">OTHERS</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Estoy buscando.." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- ACA BANNER PRINCIPAL BIENVENIDA -->
 			<div class="bienvenido">
+				<div class="bienvenido_titulo"></div>
 				<h1>BIENVENIDO A UNA NUEVA EXPERIENCIA..<span>&#160;</span></h1>
 			</div>
-	</section>
 
+<!-- ACA ARRANCA EL CARRUSEL  -->
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

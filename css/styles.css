@@ -26,106 +26,99 @@ ul{
 	list-style: none;
 }
 
-.seccion1{
-	background-size: 100%;
-	background-position: center;
-	background-image: url("../imagenes/home_banner_1.jpg");
-	background-repeat: no-repeat;
-	height: 500px;
-}
-.header{
-	display: flex;
-	width: 100%;
-}
+/*-------------------------------*/
 
-.header_ul{
-	justify-content: flex-start;
-}
-.header_ul1{
-	justify-content: flex-end;
-	padding-right: 5%;
-}
-
-.header ul{
+.descuento_header{
 	display: flex;
-	flex-wrap: wrap;
-	flex: 1;
-	column-gap: 15px
+	height: 1.5rem;
+	background: yellow;
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
-
-.menu_ul{
+.descuento{
 	display: flex;
-	flex: 1;
 	flex-wrap: wrap;
 	align-items: center;
+	margin: auto;
 }
+/*-------------------------------*/
+.navbar-brand{
+	width: 120px;
+    height: auto;
+    padding: 10px;
 
-
-.seccion1_box{
-	background-color: black;
-	opacity: 50%;
 }
-
-.menu {
+.navbar{
 	display: flex;
-	margin-bottom: .02%;
+	background: black;
+	height: auto;
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 
-.menu_ul{
+.conteienr-fluid{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav-item a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.nav-item a{
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 1s;
 	color: white;
-	justify-content: center;
-	column-gap: 15%;
-	padding-right: 2%;
-	padding-left: 2%;
+}
+
+a {
 	list-style: none;
-	font-weight: bold;
-}
-
-.bienvenido{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	display: grid;
-	color: #FDEC01;
-	justify-content: center;
-	font-weight: bold;
-}
-
-.bienvenido p{
-	display: grid;
 	color: white;
-	justify-content: center;
-	font-weight: bold;
-	font-size: auto;
-	width: 100%;
+	text-decoration: none;
 }
 
+.dropdown-menu {
+	background-color: black;
+}
 
-.descuento{
-	width: 100%;
-	height: 20px;
-	background-color: yellow;
+.dropdown-menu a{
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 1s;
+	color: white;
+}
+
+.dropdown-menu a:hover {
 	color: black;
-	text-align: center;
-	font-size: auto;
+	text-decoration: underline;
+	text-decoration: blink;
 }
-------------------------------------------------------
-.seccion4{
-	display: flex;
-	width: 100%;
-}
-.seccion4 {
-	width: 100%;
+
+.btn {
 	background-color: white;
 }
-.footer_ul{
-	display: flex;
-	flex: 1;
-	flex-wrap: wrap;
-	justify-content: center;
-	column-gap: 50px;
-}
-/*----------------------------------------------------*/
+
+/*------------------------------------------*/
+.bienvenido {
+    background-image: url(../imagenes/home_banner_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+
+
+
+
+
+/*
 
 .bienvenido h1{
 	float: center;
@@ -150,9 +143,48 @@ ul{
 	to{
 		width: 0;
 	}
+} */
+
+
+
+/*.bienvenido{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: grid;
+	color: #FDEC01;
+	justify-content: center;
+	font-weight: bold;
 }
 
+.bienvenido p{
+	display: grid;
+	color: white;
+	justify-content: center;
+	font-weight: bold;
+	font-size: auto;
+	width: 100%;
+} */
+
+/*------------------------------------------------------*/
+.seccion4{
+	display: flex;
+	width: 100%;
+}
+.seccion4 {
+	width: 100%;
+	background-color: white;
+}
+.footer_ul{
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 50px;
+}
 /*----------------------------------------------------*/
+
+
 
 .carrusel {
 	width: 100%;
@@ -179,15 +211,16 @@ ul{
 .carrusel:hover {
 	transform: rotate(360deg);
 	transition-duration: 2s;
-
+}
 
 
 /*----------------------------------------------------*/
 
 
-.seccionfooter h3{
+.seccionfooter h3{{
 	margin-left: 5%;
-}
+{}}
+
 
 .seccionfooter1{
 	margin-left: 5%;
@@ -200,6 +233,7 @@ ul{
     text-align: center;
 	justify-content: center;
 }
+
 .footer3{
 	margin-left: 10%;
 	list-style: none;
@@ -210,7 +244,7 @@ ul{
 	flex: 1;
 }
 
---------------------------
+/*--------------------------*/
 
 @media (max-width: 480px)
 	
@@ -229,7 +263,7 @@ ul{
 		justify-content: center;
 	}
 }
---------------------------
+/*--------------------------*/
 
 .likes {
 	width: auto;
@@ -251,21 +285,6 @@ ul{
 /*--------------------TRANSICIONES--------------------------------*/
 
 
-.menu a:hover {
-	color: yellow;
-}
 
-.menu a{
-	text-decoration: none;
-	transition-property: color;
-	transition-duration: 1s;
-	color: white;
-}
-
-a {
-	list-style: none;
-	color: white;
-	text-decoration: none;
-}
 
 /*------------------------------------------------------------------*/
