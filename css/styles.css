@@ -44,7 +44,7 @@ ul{
 }
 /*-------------------------------*/
 .navbar-brand{
-	width: 120px;
+	width: 500px;
     height: auto;
     padding: 10px;
 
@@ -112,28 +112,33 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;*/
-
-
-
-
-
-/*
-
-.bienvenido h1{
-	float: center;
-	color: yellow;
-	position: relative;
+    height: 100vh;
 }
 
-.bienvenido h1 span{
+.bienvenido_titulo h1 {
+    color: white;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -3px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-bottom: 1px solid;
+}
+
+.bienvenido_titulo span {
 	position: absolute;
 	right: 0;
 	width: 0;
-	background: black;
-	border-left: 2px solid #fff;
+	background: space;
+	border-left: 5px solid;
 
-	animation: maquina 4s infinite alternate steps(45);
+	animation: maquina 3s infinite alternate steps(21);
+
 }
 
 @keyframes maquina {
@@ -143,29 +148,7 @@ a {
 	to{
 		width: 0;
 	}
-} */
-
-
-
-/*.bienvenido{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	display: grid;
-	color: #FDEC01;
-	justify-content: center;
-	font-weight: bold;
 }
-
-.bienvenido p{
-	display: grid;
-	color: white;
-	justify-content: center;
-	font-weight: bold;
-	font-size: auto;
-	width: 100%;
-} */
-
 /*------------------------------------------------------*/
 .seccion4{
 	display: flex;
