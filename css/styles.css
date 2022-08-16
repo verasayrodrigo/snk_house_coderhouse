@@ -227,18 +227,17 @@ a {
 /*--------------------------*/
 
 @media (max-width: 480px)
-	
-	.menu{
+	.navbar{
 		flex-wrap: wrap;
 	}
 	
-	.menu_ul{
+	.navbar-bar{
 		margin: 0 0;
 		justify-content: center;
 	}
 
-	.menu
-	.menu_ul{
+	.navbar
+	.navbar-bar{
 		display: flex;
 		justify-content: center;
 	}
