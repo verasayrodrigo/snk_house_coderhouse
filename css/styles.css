@@ -193,6 +193,15 @@ a {
     transition: transform .5s ease-in-out;
 }
 
+.row{
+	background-color: black;
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
 /*----------------------------------------------------*/
 .footer {
 	display: grid;
@@ -277,14 +286,7 @@ a {
 	transform: scale3d(0.95, 0.95, 0.95);
 	transition: 0.4s;
 }
-.row{
-	background-color: black;
-	display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
-}
+
 .showroom_img{
 	border-radius: 1rem;
 	margin: 0 auto;
@@ -303,8 +305,16 @@ a {
 	margin: 1rem;
 }
 .card{
+	text-align: center;
 	word-wrap: break-word;
+	--bs-card-bg: black;
 }
+
+/*
+.card-header{
+	border-bottom: var(--vs-card-border-width) solid white;
+}
+*/
 
 
 /*------------------------------ADIDAS-----------------------------------*/
