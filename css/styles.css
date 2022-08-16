@@ -307,8 +307,94 @@ a {
 	word-wrap: break-word;
 }
 
-}
 
+/*------------------------------ADIDAS-----------------------------------*/
+
+.productos{
+	background: black;
+}
+.productos_contenedor{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.papa_tarjeta {
+    margin: 20px;
+    perspective: 1000px;
+}
+.papa_tarjeta:hover .tarjeta {
+    transform: rotateY(180deg);
+  }
+.tarjeta{
+	width: 350px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
+.frente_tarjeta, .dorso_tarjeta{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+.frente_tarjeta {
+    background-size: cover;
+    background-position: center;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.cuerpo_tarjeta_frente {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateZ(60px);
+}
+.cuerpo_tarjeta_dorso {
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+ }
+ .cuerpo_tarjeta_dorso p {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.cuerpo_tarjeta_dorso input {
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: BLACK;
+    box-shadow: 1px 1px 30px -5px black;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+}
+.dorso_tarjeta {
+    transform: rotateY(180deg);
+    background: #fff;
+}
 
 
 
