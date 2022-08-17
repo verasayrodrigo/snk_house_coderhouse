@@ -204,6 +204,15 @@ a {
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
+.img-fluid{
+	border-radius: 1rem;
+}
+/*----------------------------------------------------*/
+.street {
+	width: auto;
+
+}
+
 
 /*----------------------------------------------------*/
 .footer {
@@ -330,9 +339,10 @@ a {
 	background: black;
 }
 .productos_contenedor{
+	border-bottom: 1px solid white;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: auto;
     perspective: 1000px;
     display: flex;
     justify-content: center;
