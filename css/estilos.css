@@ -207,10 +207,48 @@ ul {
   border-radius: 1rem;
 }
 
-.street {
-  width: auto;
+.nuevo {
+  background-image: url(../imagenes/streetwear/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.nuevo h2 {
+  color: white;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 5rem;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-bottom: 1px solid;
+}
+.nuevo h2 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: space;
+  border-left: 5px solid;
+  animation: maquina 3s infinite alternate steps(25);
 }
 
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
 .marcas {
   display: flex;
   flex-direction: column;
