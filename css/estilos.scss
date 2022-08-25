@@ -485,3 +485,12 @@ ul{
 	}
 }
 
+@mixin large-text {
+  font: {
+    family: 'Open Sans', sans-serif;
+    size: 20px;
+    weight: bold;
+  }
+  color: white;
+}
+
